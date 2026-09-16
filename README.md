@@ -6,13 +6,13 @@ See `GrowLedger_PRD_and_Development_Guide_v1.4` for full product requirements an
 
 ## Stack
 
-Next.js (App Router) + TypeScript, Supabase (Auth + Postgres, Row Level Security), Recharts, deployed on Vercel — PRD Section 7.
+Next.js (App Router) + TypeScript, Supabase (Auth + Postgres, Row Level Security), Recharts, deployed on Vercel
 
 ## Structure
 
-- `app/` — one route per screen in the PRD Section 9 screen inventory (landing/sign-in, dashboard, crop profiles, grow spaces, cycle list, cycle form, cycle detail, alert detail).
-- `lib/calculations/` — pure, unit-testable functions for each formula in the wireframe's Formulas tab (FR-09–12). Not yet implemented — see the stubs' doc comments.
-- `types/database.ts` — hand-authored types for the eight tables in PRD Section 6. Keep in sync with the actual Supabase migrations.
+- `app/` — one route per screen in the screen inventory (landing/sign-in, dashboard, crop profiles, grow spaces, cycle list, cycle form, cycle detail, alert detail).
+- `lib/calculations/` — pure, unit-testable functions for each formula in the wireframe's Formulas tab. Not yet implemented.
+- `types/database.ts` — hand-authored types for the eight tables as per the projects requirements. Keep in sync with the actual Supabase migrations.
 
 ## Getting started
 
