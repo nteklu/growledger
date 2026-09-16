@@ -14,10 +14,3 @@ Next.js (App Router) + TypeScript, Supabase (Auth + Postgres, Row Level Security
 - `lib/calculations/` — pure, unit-testable functions for each formula in the wireframe's Formulas tab (FR-09–12). Not yet implemented — see the stubs' doc comments.
 - `types/database.ts` — hand-authored types for the eight tables in PRD Section 6. Keep in sync with the actual Supabase migrations.
 
-## Getting started
-
-```bash
-npm install
-cp .env.example .env.local   # fill in Supabase project values
-npm run dev
-```
