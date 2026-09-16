@@ -1,0 +1,22 @@
+:root {
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --line: #8a8a8a;
+  --panel: #f4f4f2;
+  --panel-line: #d8d8d4;
+  --accent: #2255aa;
+  --accent-bg: #e8eef7;
+  --warn: #a15a00;
+  --warn-bg: #fbeee0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  background: #fff;
+}
